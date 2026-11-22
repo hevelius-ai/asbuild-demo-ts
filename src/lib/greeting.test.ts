@@ -10,5 +10,5 @@ test("ignores spaces around the name", () => {
 })
 
 test("asks for a name when only spaces were typed", () => {
-  expect(greeting("   ")).toBe("Please type your name first.")
+  expect(greeting("   ")).toBe("Name is required.")
 })
